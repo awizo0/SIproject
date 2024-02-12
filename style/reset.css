@@ -61,9 +61,8 @@ element.style {
   padding-bottom: 10px;
 }
 
-
 .content {
-  background: red;
+  background: blue;
   display: flex;
   flex-direction: column;
 }
