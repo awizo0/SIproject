@@ -1,10 +1,13 @@
 .content {
     display: flex;
     flex-direction: column;
+    width: 100%;
+
+    margin-left: 2rem;
 }
 
 .content img {
-    width: 100px;
+    width: 60px;
 }
 
 .content > .acount > img {
@@ -13,6 +16,20 @@
 
 .acount {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row-reverse; 
+    align-items: center;
+    margin-top: 1rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.acount > span {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.welcome {
+
 }
