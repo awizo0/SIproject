@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content img {
+    width: 100px;
+}
+
+.content > .acount > img {
+    border-radius: 50%;
+}

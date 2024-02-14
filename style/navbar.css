@@ -1,0 +1,60 @@
+.navbar {
+    background: darkblue;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.logo {
+  padding: 1.5rem 1.5rem;
+}
+
+.navbar > .logo > img {
+    width: 3rem;
+}
+.menu  img {
+    width: 2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+    margin-bottom:2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.menu > .menu1 > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.menu > .menu1 > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.menu > .menu2 > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.menu > .menu2 > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.5rem;
+}
+
+
+
+
