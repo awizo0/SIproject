@@ -10,3 +10,9 @@
 .content > .acount > img {
     border-radius: 50%;
 }
+
+.acount {
+    display: flex;
+    flex-direction: row;
+    
+}
