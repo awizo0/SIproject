@@ -1,10 +1,16 @@
+:root {
+    --color-1:#151C53;
+}
+
+
 .navbar {
-    background: darkblue;
+    background: var(--color-1);
 
     height: 100vh;
     display: flex;
     flex-direction: column;
     color: white;
+    
 }
 
 .logo {
