@@ -11,10 +11,6 @@ body {
 
 }
 
-body > div.content {
-  gap: 64px;
-}
-
 button,
 input {
   background: none;
