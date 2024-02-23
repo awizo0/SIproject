@@ -1,28 +1,35 @@
 :root {
     --color-1:#151C53;
+    --color-2:#3A4AD6;
+
 }
 
 
 .navbar {
     background: var(--color-1);
-
     height: 100vh;
     display: flex;
     flex-direction: column;
     color: white;
-    
+    position: sticky;
+    top: 0;
+    left: 0;
+    flex: 1 1;
 }
 
 .logo {
-  padding: 1.5rem 1.5rem;
+  padding: 1vh;
+  margin-top: 1.5vh;
+  margin-left: 1.5vh;
 }
 
 .navbar > .logo > img {
-    width: 3rem;
+    width: 50px;
+    margin-bottom: 1vh;
 
 }
 .menu  img {
-    width: 2rem;
+    width: 30px;
 }
 
 .menu {
@@ -31,37 +38,95 @@
     justify-content: space-between;
     flex: 1;
 
-    margin-bottom:2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    flex-wrap: wrap;
+
+    gap: 2vh;
+
+    margin-bottom:5vh;
+    margin-left: 2vh;
+    margin-right: 5vh;
 }
 
 .menu > .menu1 > ul {
     display: flex;
     flex-direction: column;
-    gap: 0.9rem;
+    gap: 2vh;
 }
 
 .menu > .menu1 > ul > li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:0.5rem;
+    gap: 2vh;
+
+    padding: 0.5vh;
 }
 
 .menu > .menu2 > ul {
     display: flex;
     flex-direction: column;
-    gap: 0.9rem;
+    gap: 2vh;
 }
 
 .menu > .menu2 > ul > li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:0.5rem;
+    gap:2vh;
+
+    padding: 0.5vh;
 }
 
+.menu > .menu1 > ul > li:hover {
+    background: var(--color-2);
+}
 
+.menu > .menu2 > ul > li:hover {
+    background: var(--color-2);
+}
 
+@media only screen and (max-width: 1259px) {
+    
+    body {
+        flex-direction: column;
+    }
 
+    nav {
+        flex-direction: row;
+        height: 12vh;
+        width: 100vw;
+    }
+
+    .menu {
+        flex-direction: row;
+    }
+
+    .menu > .menu1 > ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1vh;
+    }
+    
+    .menu > .menu1 > ul > li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:1vh;
+    }
+    
+    .menu > .menu2 > ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1vh;
+
+  }
+    
+    .menu > .menu2 > ul > li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:1vh;
+    }
+
+  }
+  
